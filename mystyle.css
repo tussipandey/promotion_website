@@ -1,0 +1,98 @@
+body{
+background: url(back3.jpg) no-repeat center center  fixed;
+    background-size: cover;
+    font-family: fantasy serif;
+} 
+.logo{
+    height: 35px;
+}
+.navbar-inverse{
+    background: rgba(0,0,0,0.5);
+}
+.nav li{
+    color: antiquewhite;
+    font-size: 15px;
+    margin-right: 36px;
+    padding: 10px 0;
+}
+.nav li:hover{
+    border-bottom: 1px solid green;
+    cursor: pointer;
+}
+.jumbotron{
+    background-color: transparent;
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 0px;
+    padding: 10px;
+    letter-spacing: 2.5px;
+    
+}
+.container{
+    max-width: 1000px;
+}
+.bodyimage{
+    height: 100px;
+    
+}
+.col-sm{
+    text-align: center;
+    color: wheat;
+}
+.icons p{
+    font-size: 15px;
+   
+}
+.vtu{
+    font-size: 15px;
+    color: blue;
+    background-color: snow;
+}
+.contact{
+ text-align: center;
+ margin-top: 30px;
+ margin-bottom: 100px;
+}
+.btn{
+ background-color: wheat;
+    color: black;
+ border: none;
+ border-radius: 10px;
+
+ font-size: 18px;
+ padding: 10px 70px;
+ letter-spacing: 1.3px;
+}
+.btn:hover{
+ background-color: rgba(0, 0, 0, 0.5);
+ color: #fff;
+ border: none;
+}
+/*Style footer*/
+.footer{
+ background-color: rgba(0, 0, 0, 0.5);
+ color: grey;
+ font-size: 15px;
+ padding: 10px 0;
+}
+/*use media queries to change icons size in small devices*/
+@media (min-width: 320px) and (max-width: 480px) {
+ 
+    
+    .navbar-inverse{
+        width: auto;
+    }
+    .nav li{
+    color: olivedrab;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 5px 0;
+}
+    
+
+}
+.glyphicon glyphicon-chevron-left{
+    background-color: aliceblue;
+    color: black;
+}
+
